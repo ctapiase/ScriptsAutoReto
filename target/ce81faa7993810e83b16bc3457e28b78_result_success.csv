@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"register test","Successful Registration","SUCCESS","2024-07-07T12:19:49.4538788-05:00[America/Bogota]","0.0","28.03"
+"register test","Successful Login","SUCCESS","2024-07-07T12:23:32.9597985-05:00[America/Bogota]","0.0","12.83"

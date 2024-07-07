@@ -1,0 +1,28 @@
+
+W	java:S125+"<This block of commented-out lines of code should be removed.(úßŠc8ñ¶èÏˆ2
+X	java:S125/"<This block of commented-out lines of code should be removed.(ñí½ü8ñ¶èÏˆ2
+b
+java:S1128"ERemove this unused import 'net.serenitybdd.screenplay.actions.Click'.(€Äø8ÉÍÍÒˆ2
+d
+java:S1128
+"BRemove this unused import 'net.serenitybdd.screenplay.waits.Wait'.(Èø€®øÿÿÿÿ8ë«êÏˆ2
+d
+java:S1128"GRemove this unused import 'net.serenitybdd.screenplay.waits.WaitUntil'.(˜• Ü8ë«êÏˆ2
+S
+java:S1128"6Remove this unused import 'org.openqa.selenium.Alert'.(Àã¥‰8ÊÍÍÒˆ2
+e
+java:S1128"HRemove this unused import 'org.openqa.selenium.NoAlertPresentException'.(²Â•ä8ÊÍÍÒˆ2
+W
+java:S1128":Remove this unused import 'org.openqa.selenium.WebDriver'.(ñšÿÀ8ë«êÏˆ2
+p
+java:S1128"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ8ì«êÏˆ2
+f
+java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó8ì«êÏˆ2
+Q
+java:S1128"/Remove this unused import 'java.time.Duration'.(ëá¯‰üÿÿÿÿ8ì«êÏˆ2
+f
+java:S1128"DRemove this unused import 'net.serenitybdd.core.Serenity.getDriver'.(Øº¨Úüÿÿÿÿ8ËÍÍÒˆ2
+
+java:S1128"bRemove this unused import 'net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible'.(‡ª8ì«êÏˆ2
+d
+java:S1128"GRemove this unused import 'org.assertj.core.api.Assertions.assertThat'.(êËÎó8ì«êÏˆ2

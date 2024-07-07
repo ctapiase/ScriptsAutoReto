@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="2" failures="0" name="register test" skipped="0" tests="2" time="17.87" timestamp="2024-07-07 12:27:28"><testcase name="Failed Login with Incorrect Password"><error message="Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: '4.17.0', revision: 'e52b1be057*'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'&#10;Driver info: net.thucydides.core.webdriver.DevToolsWebDriverFacade" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: net.thucydides.core.webdriver.DevToolsWebDriverFacade</error><system-err>Expected condition failed: waiting for alert to be present (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: net.thucydides.core.webdriver.DevToolsWebDriverFacade&#13;
+co.com.choucair.interactions.Capture.performAs(Capture.java:36)&#13;
+co.com.choucair.questions.CaptureTxt.answeredBy(CaptureTxt.java:11)&#13;
+co.com.choucair.questions.CaptureTxt.answeredBy(CaptureTxt.java:7)&#13;
+co.com.choucair.stepdefinitions.StoreRegisterStepDefinitions.theSystemShouldDisplayTheMessageSignUpSuccessful(StoreRegisterStepDefinitions.java:39)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)&#13;
+io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>

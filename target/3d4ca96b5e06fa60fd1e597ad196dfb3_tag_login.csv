@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"register test","Successful Login","PENDING","2024-07-07T09:20:15.2630892-05:00[America/Bogota]","0.0","0.35"
+"register test","Successful Login","SUCCESS","2024-07-07T12:23:32.9597985-05:00[America/Bogota]","0.0","12.83"
+"register test","Failed Login with Incorrect Password","ERROR","2024-07-07T12:27:28.1472303-05:00[America/Bogota]","0.0","17.87"

@@ -1,0 +1,16 @@
+
+u
+java:S1450"XRemove the "alertText" field and declare it as a local variable in the relevant methods.(¼—àë8½Ú»ñˆ2
+L	java:S106)"+Replace this use of System.out by a logger.(»Ï§ùÿÿÿÿ8ÈÚ»ñˆ2
+b
+java:S1128"ERemove this unused import 'co.com.choucair.userinterfaces.LogInForm'.(Ü®®†8Å¯Êñˆ2
+c
+java:S1128"FRemove this unused import 'co.com.choucair.userinterfaces.SingUpForm'.(‘Íü8Å¯Êñˆ2
+a
+java:S1128"?Remove this unused import 'net.serenitybdd.screenplay.actions'.(®Ñ‰Îıÿÿÿÿ8Å¯Êñˆ2
+e
+java:S1128"HRemove this unused import 'org.openqa.selenium.NoAlertPresentException'.(²Â•ä8Å¯Êñˆ2
+f
+java:S1128"DRemove this unused import 'net.serenitybdd.core.Serenity.getDriver'.(Øº¨Úüÿÿÿÿ8Å¯Êñˆ2
+d
+java:S1128"GRemove this unused import 'org.assertj.core.api.Assertions.assertThat'.(êËÎó8Å¯Êñˆ2
