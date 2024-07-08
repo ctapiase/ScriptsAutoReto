@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features/store_register.feature",
         glue = "co.com.choucair.stepdefinitions",
-        tags = "@Logino",
+        tags = "",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class StoreRegisterRunner {

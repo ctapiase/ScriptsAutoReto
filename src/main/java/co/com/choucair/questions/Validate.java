@@ -8,14 +8,14 @@ import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
-public class Validate implements Question {
+public class Validate implements Question <String>{
     private String msgValidation;
 
     public Validate (String msgValidation) {
         this.msgValidation = msgValidation;
     }
     @Override
-    public Object answeredBy(Actor actor) {
+    public String answeredBy(Actor actor) {
         actor.attemptsTo(
                 WaitUntil.the(HomePage.TXT_USER, isVisible()).forNoMoreThan(10).seconds()
         );

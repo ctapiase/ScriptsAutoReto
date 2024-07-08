@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"register test","Successful Registration","PENDING","2024-07-05T15:32:43.7936298-05:00[America/Bogota]","0.0","0.42"
-"register test","Failed Registration due to Duplicate User","PENDING","2024-07-05T15:32:44.290097-05:00[America/Bogota]","0.0","0.3"
-"register test","Registration without Password","PENDING","2024-07-05T15:32:44.6538127-05:00[America/Bogota]","0.0","0.24"

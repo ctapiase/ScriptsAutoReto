@@ -3,10 +3,7 @@ package co.com.choucair.stepdefinitions;
 import co.com.choucair.models.UserLoombokData;
 import co.com.choucair.questions.CaptureTxt;
 import co.com.choucair.questions.Validate;
-import co.com.choucair.tasks.EnterOnLogin;
-import co.com.choucair.tasks.EnterOnRegister;
-import co.com.choucair.tasks.LogIn;
-import co.com.choucair.tasks.Register;
+import co.com.choucair.tasks.*;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -35,7 +32,6 @@ public class StoreRegisterStepDefinitions {
 
     @Then("^the system should display the message (.*)$")
     public void theSystemShouldDisplayTheMessageSignUpSuccessful(String msg) {
-        System.out.println(msg);
         OnStage.theActorInTheSpotlight().should(seeThat(CaptureTxt.popUp(), equalToIgnoringWhiteSpace(msg)));
     }
 
@@ -51,6 +47,11 @@ public class StoreRegisterStepDefinitions {
     @Then("the system should display in the Home Page the message {string}")
     public void theSystemShouldDisplayInTheHomePageTheMessage(String msg) {
         OnStage.theActorInTheSpotlight().should(seeThat(Validate.messageWelcome(msg), equalToIgnoringWhiteSpace(msg)));
+    }
+
+    @When("the user enters the login form fail data")
+    public void theUserEntersTheLoginFormFailData(DataTable data) {
+        OnStage.theActorInTheSpotlight().attemptsTo(LogInF.onTheSite(UserLoombokData.setData(data).get(0)));
     }
 
 

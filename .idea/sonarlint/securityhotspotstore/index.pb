@@ -39,3 +39,12 @@ e
 5src/main/java/co/com/choucair/questions/Validate.java,a\c\ace5e6ca0b1c543dec160a5c08f368fb703cc0e3
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+_
+/src/main/java/co/com/choucair/tasks/LogInF.java,8\6\86b2c2f435a99e9ead71327a1231754c62f066e4
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+;
+gradlew.bat,2\a\2a45a911a8f1836b0b6c5b758962572012d8f8c3
+7
+gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9

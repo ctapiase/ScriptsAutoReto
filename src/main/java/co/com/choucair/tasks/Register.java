@@ -30,26 +30,11 @@ public class Register implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-
         actor.attemptsTo(
                 Enter.theValue(userLoombokData.getUsername()).into(SingUpForm.TXT_USER),
                 Enter.theValue(userLoombokData.getPassword()).into(SingUpForm.TXT_PASS)
-                //Click.on(SingUpForm.SING_UP)
-                //WaitUntil.the(ExpectedConditions.alertIsPresent()),
-                //Switch.toAlert()
 
         );
-
-       /* WaitUntil.the(ExpectedConditions.alertIsPresent());
-        Alert alert = getDriver().switchTo().alert();
-        System.out.println(alert.getText());*/
-
-        //assertThat(actor.asksFor(HtmlAlert.text())).isEqualTo("Are you sure?");
-       /* WaitUntil.the(ExpectedConditions.alertIsPresent());
-        Alert alert = getDriver().switchTo().alert();
-        System.out.println("TTTTTTTTTTT" + alert.getText());
-        actor.remember("msgPopUp", alert.getText());*/
-
     }
 
     public static Register onTheSite(UserLoombokData userLoombokData){

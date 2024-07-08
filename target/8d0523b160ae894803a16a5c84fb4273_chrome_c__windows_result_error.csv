@@ -1,3 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"register test","Login without Username","ERROR","2024-07-07T12:23:59.6439619-05:00[America/Bogota]","0.0","12.53"
-"register test","Failed Login with Incorrect Password","ERROR","2024-07-07T12:27:28.1472303-05:00[America/Bogota]","0.0","17.87"

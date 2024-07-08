@@ -10,7 +10,6 @@ public class CaptureTxt implements Question<String> {
 
         actor.attemptsTo(Capture.popUp());
         String Message = actor.recall("Message");
-        System.out.println("Question" + Message);
         return Message;
     }
 
