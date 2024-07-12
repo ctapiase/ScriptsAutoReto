@@ -5,12 +5,12 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
 
 public class CaptureTxt implements Question<String> {
+    String message;
     @Override
     public String answeredBy(Actor actor) {
-
         actor.attemptsTo(Capture.popUp());
-        String Message = actor.recall("Message");
-        return Message;
+        message = actor.recall("Message");
+        return message;
     }
 
     public static CaptureTxt popUp() {

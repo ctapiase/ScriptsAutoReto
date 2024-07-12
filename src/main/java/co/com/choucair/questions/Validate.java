@@ -1,15 +1,17 @@
 package co.com.choucair.questions;
 
 import co.com.choucair.userinterfaces.HomePage;
+import co.com.choucair.userinterfaces.LogInForm;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
+import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 
 public class Validate implements Question <String>{
-    private String msgValidation;
+   String msgValidation;
 
     public Validate (String msgValidation) {
         this.msgValidation = msgValidation;
@@ -17,6 +19,7 @@ public class Validate implements Question <String>{
     @Override
     public String answeredBy(Actor actor) {
         actor.attemptsTo(
+                Click.on(LogInForm.BTN_LOGIN),
                 WaitUntil.the(HomePage.TXT_USER, isVisible()).forNoMoreThan(10).seconds()
         );
         return Text.of(HomePage.TXT_USER).answeredBy(actor);

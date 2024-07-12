@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Register and LogIn","Successful Login","SUCCESS","2024-07-08T11:26:46.9549437-05:00[America/Bogota]","0.0","9.47"
+"Register and LogIn","Successful Login","SUCCESS","2024-07-12T13:30:54.2674109-05:00[America/Bogota]","0.0","9.02"
+"Register and LogIn","Failed Login","SUCCESS","2024-07-12T13:31:03.3799335-05:00[America/Bogota]","0.0","16.44"
+"Register and LogIn","Failed Login","SUCCESS","2024-07-12T13:31:03.3799335-05:00[America/Bogota]","0.0","16.44"
